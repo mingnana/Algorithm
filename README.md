@@ -19,6 +19,7 @@ baekjoon: [https://www.acmicpc.net](https://www.acmicpc.net/)
 소스코드: 파스칼 표기법으로 자신의 이름 뒤에 .확장자명을 붙여 작성
 예) YouMe.java, HyeIn.java
 
+
 Commit Rule
 브랜치 생성: 이름_분류 번호_문제 번호
 예) YouMe_200_10828
@@ -28,11 +29,21 @@ pull request의 제목 및 내용은 자유롭게 작성
 merge 후 해당 브랜치 삭제
 커밋 후 바로 merge하는 것을 권장
 
+
 Code Review
 소스 코드 파일에 댓글을 달아 코드 리뷰 진행
 작성시 상대방의 기분을 배려하며 근거를 포함
 받은 리뷰를 공격적으로 받아들이지 않기
 
-Study Rule
-1일 1알고리즘 문제 업로드
-미업로드 시 1000원 헌납
+commit 메세지: [문제 출처(플랫폼)] 문제이름 / 난이도 / 걸린시간
+description: 문제 주소 (option)
+터미널에서 작성법:
+git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.net/problem/2557"
+플랫폼 작성법 통일:
+[BOJ] - 백준
+[PGS] - 프로그래머스
+[LTC] - 리트코드
+[CFS] - 코드포스
+[SEA] - 삼성SW Expert Academy
+[ETC] - 그외
+
