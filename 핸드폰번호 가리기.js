@@ -10,7 +10,7 @@ function solution(phone_number) {
     return answer;
 }
 
-// ****************************
+// *****************************
 
 function solution2(phone_number){
     var answer = '';
