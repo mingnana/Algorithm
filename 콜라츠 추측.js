@@ -5,7 +5,7 @@ function solution(num) {
             num = num /2
         } else if(num==1){  // 1이 결과로 나왔다면
             return i;
-        } else if (num% 2 ==1){
+        } else{
             num = num *3 +1    
         }
     } 
