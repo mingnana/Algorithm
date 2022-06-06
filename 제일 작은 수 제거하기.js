@@ -10,3 +10,8 @@ function solution(arr) {
     }
     return arr;
 }
+
+// 
+var arr = [4, 3, 2];
+console.log(arr);               // [4, 3, 2]
+console.log(...arr);            // 4, 3, 2
