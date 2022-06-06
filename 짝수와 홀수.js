@@ -1,3 +1,4 @@
+// 풀이1
 function solution(num){
     var answer = '';
     if (num % 2 === 0){
@@ -5,4 +6,11 @@ function solution(num){
     } else {
         return answer = "Odd"
     }
+}
+
+// 풀이2
+function solution(num) {
+    var answer = '';
+    return num % 2 === 0 ? "Even" : "Odd"
+    
 }
