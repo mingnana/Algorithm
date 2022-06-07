@@ -13,3 +13,13 @@ var array = [1, 4, 7, 10]
 var map = array.map(x => x*2);
 console.log(map)
     :: array [2, 8, 14, 20] 반환 
+
+//예제2
+const oneTwoThree = [1, 2, 3]
+result = oneTwoThree.map((v) => {
+    return v});
+// 결과값은 [1, 2, 3]이 찍힘
+
+result = oneTwoThree.map((v) => {
+    return v + 1; });
+// 결과값은 [2, 3, 4]가 찍힘
