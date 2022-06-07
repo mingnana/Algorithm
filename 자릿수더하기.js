@@ -13,7 +13,7 @@ function solution1(n)
 }
 
 
-//
+// 풀이2
 function solution2(n)
 {
     var answer = 0;
@@ -23,6 +23,19 @@ function solution2(n)
         answer += parseInt(a[i])
     }
 
+    return answer;
+}
+
+// 풀이법3
+// 출처 : https://github.com/codeisneverodd/programmers-coding-test/blob/main/level-1/%EC%9E%90%EB%A6%BF%EC%88%98-%EB%8D%94%ED%95%98%EA%B8%B0.js
+function solution3(n){
+    var answer = 0;
+
+    n.toString()
+        .split('')
+        .forEach((n) => {
+        answer += parseInt(n)
+    })
     return answer;
 }
 
