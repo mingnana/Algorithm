@@ -3,6 +3,8 @@ function solution(arr, divisor) {
   for (i = 0; i < arr.length; i++) {
     if (arr[i] % divisor == 0) {
       answer.push(arr[i]);
+      // answer.push(arr[i]).sort((a, b) => a - b) 로직이 안되는 이유?
+      // 배열에 arr[i]를 추가하고 그 후 에 sort 메서드가 호출되므로 기존의 배열에 적용됨 -> 원래의 answer 배열 반환
     }
   }
 
