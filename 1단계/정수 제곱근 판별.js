@@ -6,6 +6,7 @@ function solution(n) {
     answer = -1;
   } else {
     answer = Math.pow(sqrt + 1, 2); // 제곱근일 경우
+    //pow(x,y) 함수는 주진 x의 y제곱을 계산하는 메서드
   }
   return answer;
 }
