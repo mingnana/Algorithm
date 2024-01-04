@@ -1,0 +1,24 @@
+function solution(arr) {
+  let answer = [];
+  if (arr.length <= 1) {
+    return [-1];
+  } else {
+    // Math.min 메서드 사용하여 배열 내 가장 작은 수 추출
+    let minNum = Math.min(arr);
+    // indexOf 메서드 사용해서 배열 내 문자열 index 추출
+    let idx = arr.indexOf(minNum);
+    // splice 메서드 사용해서 index 부터 첫번째 값 제거 후 반환
+    arr.splice(idx, 1);
+    return (answer = arr);
+  }
+
+  return answer;
+}
+
+// 다른 풀이
+function solution(arr) {
+  arr.splice(arr.indexOf(Math.min(arr)), 1);
+  arr.length <= 1 ? (answer = [-1]) : (answer = arr);
+
+  return answer;
+}
