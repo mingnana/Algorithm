@@ -18,11 +18,8 @@ function solution(slice, n) {
 // anser의 횟수를 증가함
 
 function solution(slice, n) {
-    var answer = 0;
-    while (slice > 0) {
-        slice -= n;
-        answer++;
-    }
+    // Math.ceil = 소수점 올림
+    var answer = Math.ceil(slice / n);
     return answer;
 }
 // 다른 풀이
