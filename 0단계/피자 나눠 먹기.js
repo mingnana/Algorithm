@@ -19,7 +19,7 @@ function solution(slice, n) {
 
 function solution(slice, n) {
     // Math.ceil = 소수점 올림
-    var answer = Math.ceil(slice / n);
+    var answer = Math.ceil(n / slice);
     return answer;
 }
 // 다른 풀이
